@@ -1,0 +1,536 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+*{
+    padding:0;
+	margin:0;
+	
+}
+
+html{
+    font-family: 'Georama', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:#000000;
+}
+
+
+#logo{
+    width: 1300px;;
+    height: 150px;
+    background: #e20029;
+    margin: 0px auto;
+    
+    
+}
+
+header .titulo-sushi{
+    width: 300px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-image: url(img/logo-sushi.png);
+    font-size: 0px;
+}
+
+header nav {
+	background:#000000;
+    font-family: 'Georama', sans-serif;
+    font-size: 19px;
+    padding: 8px;
+    width: 1300px;
+    margin: 0px auto;
+    
+}
+
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	display: block;
+	padding:10px 15px;
+	color:#fff;
+    margin-left: 80px;
+    margin-right: 80px;
+	text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.7s;
+}
+
+header nav ul li a:hover {
+	background:#FF0101;
+    border-radius: 50px;
+}
+
+
+/************* CONTENT AREA ************/
+
+.content-area{
+    width: 1300px;
+    margin: 0px auto;
+}
+/**************** SECTION 1 *************/
+#section-one{
+    width: 100%;
+    height: 770px;
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+#section-one h2{
+    padding: 10px 0 10px 0;
+    color: transparent;
+    right: 577px;
+    font-size: 30px;
+    position: absolute;
+}
+
+#section-one .banner-home{
+    width: 100%;
+    height: 770px;
+}
+
+#section-one .texto-encima{
+    width: 25%;
+    height: 420px;
+    background: transparent;
+    font-weight: 700;
+    font-family: 'Georama', sans-serif;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+}
+
+#section-one .texto-encima p{
+    
+    font-size: 21px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+/*++++++++++++++++ SECTION 2 ++++++++++++++++++++++++++*/
+
+#section-two{
+    width: 100%;
+    height: 790px;
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+#section-two .banner-nosotros{
+    width: 100%;
+    height: 790px;
+}
+
+#section-two h2{
+    color: transparent;
+    right: 577px;
+    position: absolute;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+}
+
+#section-two .texto-encima{
+    width: 25%;
+    height: 480px;
+    background: transparent;
+    font-weight: 700;
+    font-family: 'Georama', sans-serif;
+    position: absolute;
+    top: 215px;
+    left: 950px;
+}
+
+#section-two .texto-encima p{
+    margin: 15px;
+    font-size: 21px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+ /******************** SECTION 3********************************/
+#section-three{
+    width: 100%;
+    height: 770px;
+    background-color: #131212;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#section-three h2{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+#section-three .plato1{
+    width: 100%;
+    height: 205px;
+}
+
+#section-three .cuadro-plato1{
+    width: 20%;
+    position:absolute;
+    top: 70px;
+    left: 95px;
+}
+
+
+#section-three .plato2{
+    width: 100%;
+    height: 205px;
+}
+
+#section-three .cuadro-plato2{
+    width: 20%;
+    position: absolute;
+    top: 425px;
+    left: 95px;
+}
+
+
+#section-three .plato3{
+    width: 100%;
+    height: 205px;
+}
+
+#section-three .cuadro-plato3{
+    width: 20%;
+    position: absolute;
+    top: 70px;
+    left: 520px;
+    
+}
+
+
+#section-three .plato4{
+    width: 100%;
+    height: 205px;
+}
+
+#section-three .cuadro-plato4{
+    width: 20%;
+    position: absolute;
+    top: 425px;
+    left: 520px;
+    
+}
+
+
+#section-three .plato5{
+    width: 100%;
+    height: 205px;
+}
+
+#section-three .cuadro-plato5{
+    width: 20%;
+    position: absolute;
+    top: 70px;
+    left: 950px;
+    
+}
+
+
+#section-three .plato6{
+    width: 100%;
+    height: 205px;
+}
+
+#section-three .cuadro-plato6{
+    width: 20%;
+    position: absolute;
+    top: 425px;
+    left: 950px;
+    
+}
+
+#section-three .pie-cuadro1,.pie-cuadro2,
+.pie-cuadro3,.pie-cuadro4,.pie-cuadro5,.pie-cuadro6{
+    color:  #ffffff;
+    margin-bottom: 15px;
+}
+
+ /*******************SECTION 4*********************************/
+
+
+#section-four{
+    width: 100%;
+    height: 770px;
+    position: relative;
+    display: inline-block;
+    background-color: #131212;
+    padding-bottom: 50px;
+    
+}
+#section-four h2{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+#section-four .text1,.text2{
+    width: 25%;
+    height: 50px;
+    color: white;
+    background: black;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 700;
+    font-family: 'Georama', sans-serif;
+    position: absolute;
+}
+
+#section-four  .text1{
+   top: 114px;
+    left: 117px;
+}
+    
+#section-four .text2{
+    top: 595px;
+    left: 750px;
+}
+
+#section-four .producto1, .producto2{
+    width: 33%;
+    height: 510px;
+    position: absolute;
+}    
+    
+#section-four .producto1{
+    top: 193px;
+    left: 65px;
+}
+    
+#section-four .producto2{
+    top: 87px;
+    left: 700px;
+}  
+    
+
+ /*******************SECTION 5*********************************/
+
+#section-five{
+    width: 100%;
+    height: 770px;
+    position: relative;
+    display: inline-block;
+    background-color: #131212;
+}
+#section-five h2{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+#section-five h3{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left:200px;
+    
+}
+
+#form{
+    font-size: 16px;
+    width: 40%;
+    height: 450px;
+    padding: 40px 30px 30px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(253, 239, 239);
+    top: 150px;
+    left: 100px;
+    position: absolute;
+    color: rgb(253, 239, 239);
+    text-align: center;
+    }
+
+  
+    input[type=text], select {
+      width: 300px;
+      padding: 12px;
+      border: 1px solid rgb(253, 239, 239);
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    textarea {
+        width: 300px;
+        height: 80px;
+        padding: 12px;
+        border: 1px solid rgb(253, 239, 239);
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+    input[type=email]{
+        width: 300px;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    input[type=tel]{
+        width: 300px;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        
+    }
+  
+    input[type=submit] {
+      background-color: #000000;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.7s;
+    }
+  
+    input[type=submit]:hover {
+        background:#FF0101;
+        border-radius: 50px;
+    }
+
+
+#section-five h4{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left:800px;
+    
+}
+
+
+#section-five .mapa{
+    width: 40%;
+    height: 450px;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+
+}
+
+
+ .boton {
+    width: 46px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: rgba(91, 91, 91, 0.76);
+    position: fixed;
+    bottom: 56px;
+    right: 41px;
+    text-align: center;
+    font-size: 41px;
+    line-height: 46px;
+}
+    
+ .boton  a {
+        color: rgba(255, 255, 255, 0.918);
+        text-decoration: none;
+        display: block;
+    }
+
+.redes{
+    position: absolute;
+    top: 680px;
+    left: 580px;
+}
+
+.redes img{
+    width: 40px;
+    padding-left:  20px;
+    padding-right: 20px;
+}
+
+
+
+ /******************* FOOTER *********************************/
+
+#footer{
+    width: 1300px;
+    margin: 0px auto;
+    height: 50px;
+    background-color: #E20029;
+    text-align: center;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: 'Georama', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
